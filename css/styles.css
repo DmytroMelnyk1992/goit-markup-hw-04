@@ -407,9 +407,9 @@ h2 {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .our-clients-container-section-item + .our-clients-container-section-item {
@@ -425,11 +425,11 @@ h2 {
 }
 
 .our-clients-container-section-icon {
-  width: 170px;
-  height: 92px;
-  display: flex;
+  width: 106px;
+  height: 60px;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   fill: rgba(175, 177, 184, 1);
 }
 .our-clients-container-section-icon:hover,
@@ -437,10 +437,10 @@ h2 {
   fill: #2196f3;
 }
 
-.test {
-  max-width: 100%;
-  width: 170px;
-}
+/* .test {
+  display: block;
+  margin: 0 auto;
+} */
 
 /*footer-section*/
 

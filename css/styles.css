@@ -405,8 +405,6 @@ h2 {
 
 .our-clients-container-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .our-clients-container-section-item {
@@ -418,7 +416,6 @@ h2 {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  box-sizing: border-box;
 }
 
 .our-clients-container-section-item + .our-clients-container-section-item {
@@ -428,13 +425,9 @@ h2 {
 .our-clients-container-section-item:hover,
 .our-clients-container-section-item:focus {
   border: 1px solid #2196f3;
-  box-sizing: border-box;
-  border-radius: 4px;
 }
 
 .our-clients-container-section-icon {
-  width: 106px;
-  height: 60px;
   fill: rgba(175, 177, 184, 1);
 }
 .our-clients-container-section-icon:hover,
@@ -459,11 +452,6 @@ h2 {
   flex-direction: column;
   margin-right: 70px;
 }
-
-/* .footer-section-1 {
-  display: flex;
-  max-width: 231px;
-} */
 
 .footer-contacts-section {
   display: flex;
